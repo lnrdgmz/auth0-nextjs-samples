@@ -59,7 +59,7 @@ const NavBar = () => {
               {!isLoading && !user && (
                 <NavItem id="qsLoginBtn">
                   <AnchorLink
-                    href="/api/auth/login"
+                    href="/api/my_auth/login"
                     className="btn btn-primary btn-margin"
                     tabIndex={0}
                     testId="navbar-login-desktop">
@@ -90,7 +90,7 @@ const NavBar = () => {
                       </PageLink>
                     </DropdownItem>
                     <DropdownItem id="qsLogoutBtn">
-                      <AnchorLink href="/api/auth/logout" icon="power-off" testId="navbar-logout-desktop">
+                      <AnchorLink href="/api/my_auth/logout" icon="power-off" testId="navbar-logout-desktop">
                         Log out
                       </AnchorLink>
                     </DropdownItem>
@@ -101,7 +101,7 @@ const NavBar = () => {
             {!isLoading && !user && (
               <Nav className="d-md-none" navbar>
                 <AnchorLink
-                  href="/api/auth/login"
+                  href="/api/my_auth/login"
                   className="btn btn-primary btn-block"
                   tabIndex={0}
                   testId="navbar-login-mobile">
@@ -138,7 +138,7 @@ const NavBar = () => {
                 </NavItem>
                 <NavItem id="qsLogoutBtn">
                   <AnchorLink
-                    href="/api/auth/logout"
+                    href="/api/my_auth/logout"
                     className="btn btn-link p-0"
                     icon="power-off"
                     testId="navbar-logout-mobile">

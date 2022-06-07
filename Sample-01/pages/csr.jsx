@@ -18,7 +18,7 @@ export default withPageAuthRequired(function SSRPage() {
             custom <a href="https://nextjs.org/docs/advanced-features/custom-app">App Component</a> with it.
           </p>
           <p>
-            You can also fetch the user profile by calling the <code>/api/auth/me</code> API route.
+            You can also fetch the user profile by calling the <code>/api/my_auth/me</code> API route.
           </p>
         </div>
       </div>
